@@ -227,3 +227,64 @@
     transform: rotate(0deg);
   }
 }
+
+.title {
+  color: #333;
+}
+
+.text {
+  color: #666;
+}
+
+.inputBox {
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.done {
+  color: grey;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.title {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.score {
+  font-size: 2rem;
+  color: #333;
+}
+
+.time {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.keyword {
+  margin: 1rem 0;
+  font-size: 3rem;
+  color: #333;
+  display: flex;
+}
+
+.result {
+  font-size: 2rem;
+  color: #333;
+}
+
+.done {
+  color: #008000;
+  text-decoration: line-through;
+}
